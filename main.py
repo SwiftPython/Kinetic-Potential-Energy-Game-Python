@@ -12,7 +12,7 @@ while z==(1):
         print (speed)
         q1=input("What's the kinetic energy? Just the number.")
         speed2=((c)**2)*(a)/2
-        if q1==(speed2):
+        if int(q1)==speed2:
             score+=1
             print ("Yay! you scored a point! Your current score is %s." % score)
         else:
@@ -24,7 +24,7 @@ while z==(1):
         print (mass)
         q1=input("What's the gravitational potential energy?")
         answer=(a)*(c)
-        if q1==(answer):
+        if int(q1)==answer:
             score+=1
             print ("Yay! you scored a point! Your current score is %s." % score)
         else:
